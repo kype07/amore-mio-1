@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>sito css</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.ico" type="ico" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Shantell+Sans");
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: "Shantell Sans", serif;
+            background: url('/foto/24\(3novembre2024\)\ copy.jpg ') no-repeat center center fixed; 
+            background-size: cover; 
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start; 
+            height: 100%;
+            padding: 20px; 
+        }
+
+        .button {
+            padding: 15px 20px; 
+            margin: 10px;
+            background-color: transparent;
+            color: #ffffff;
+            font-size: 24px; 
+            border: none;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .button span {
+            margin-left: 10px;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .button:hover span {
+            transform: scale(1.1);
+        }
+
+        .button:hover {
+            color: #eb1857;
+        }
+
+        p {
+            background-color: #ffffff3f;
+            color: #922e2e;
+            font-size: 24px; 
+            padding: 10px;
+            border-radius: 8px; 
+        }
+
+        @media screen and (max-width: 600px) {
+            .button {
+                font-size: 18px; 
+                padding: 10px 15px; 
+                
+            }
+
+            p {
+                font-size: 18px; 
+            }
+        }
+        @media screen and (max-width: 413px) and (max-height: 318px) {
+    body {
+        background: url('sfondo2.png') no-repeat center center fixed; 
+        background-size: cover;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>PER IL MIO AMORE</p>
+        <a href="foto.html" class="button" id="button3"><span>FOTO</span></a>
+        <a href="song.html" class="button" id="button4"><span>CANZONE DEDICATE</span></a>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,33 @@
+.menu{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: min-content;
+}
+.menu a {
+    display: block;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase ;
+    padding: .5rem 0;
+    color: wheat;
+
+}
+
+
+
+
+
+body {
+    background-image: url('sfondo.jpg'); /* Sostituisci 'percorso/immagine.jpg' con il percorso dell'immagine nel tuo progetto */
+    background-size: cover; /* Per fare in modo che l'immagine copra l'intera pagina */
+}
+@media screen and (max-width: 600px) { 
+    .column.side, .column.middle, img{
+      width: 100%;
+      
+    }
+    
+  }
